@@ -6,6 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Pan");
         Console.WriteLine("Clase_ICDIA_Unidad2");
 
         int idx = 1;
