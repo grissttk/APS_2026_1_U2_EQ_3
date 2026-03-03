@@ -9,7 +9,7 @@ class Program
         Console.WriteLine("Pan");
         Console.WriteLine("Clase_ICDIA_Unidad2");
 
-        int idx = 1;
+        int idx = 3;
 
         switch (idx)
         {
@@ -19,6 +19,10 @@ class Program
          
          case 2:
              new Runner_SumaAB();
+             break;
+         
+         case 3:
+             new Runner_MayorEdad();
              break;
         }
     }
