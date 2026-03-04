@@ -31,6 +31,13 @@ class Program
              break;
          
          case 5:
+             break;
+         
+         case 6:
+             new RunnerEjercicio_MultiplicacionAB();
+             break;
+         
+         case 7:
              new RunnerEjercicio_MultiplicacionAB();
              break;
         }
