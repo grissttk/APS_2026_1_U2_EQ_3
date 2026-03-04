@@ -3,3 +3,13 @@ C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\ne
 C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\Clase_ICDIA_Unidad2.AssemblyInfo.cs
 C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\Clase_ICDIA_Unidad2.csproj.CoreCompileInputs.cache
 C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\Clase_ICDIA_Unidad2.sourcelink.json
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\bin\Debug\net10.0\Clase_ICDIA_Unidad2.exe
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\bin\Debug\net10.0\Clase_ICDIA_Unidad2.deps.json
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\bin\Debug\net10.0\Clase_ICDIA_Unidad2.runtimeconfig.json
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\bin\Debug\net10.0\Clase_ICDIA_Unidad2.dll
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\bin\Debug\net10.0\Clase_ICDIA_Unidad2.pdb
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\Clase_ICDIA_Unidad2.dll
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\refint\Clase_ICDIA_Unidad2.dll
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\Clase_ICDIA_Unidad2.pdb
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\Clase_ICDIA_Unidad2.genruntimeconfig.cache
+C:\Users\Luna\RiderProjects\Clase_ICDIA_Unidad2\Clase_ICDIA_Unidad2\obj\Debug\net10.0\ref\Clase_ICDIA_Unidad2.dll

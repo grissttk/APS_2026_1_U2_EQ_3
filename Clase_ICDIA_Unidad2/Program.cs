@@ -9,7 +9,8 @@ class Program
         Console.WriteLine("Pan");
         Console.WriteLine("Clase_ICDIA_Unidad2");
 
-        int idx = 3;
+        int idx;
+        idx = int.Parse(Console.ReadLine());
 
         switch (idx)
         {
@@ -23,6 +24,14 @@ class Program
          
          case 3:
              new Runner_MayorEdad();
+             break;
+         
+         case 4:
+             new Runner_NumeroMayorAB();
+             break;
+         
+         case 5:
+             new RunnerEjercicio_MultiplicacionAB();
              break;
         }
     }
