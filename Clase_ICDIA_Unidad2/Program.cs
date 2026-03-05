@@ -6,8 +6,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Pan");
-        Console.WriteLine("Clase_ICDIA_Unidad2");
+        #region Menu
+        Console.WriteLine("Menu Clase_ICDIA_Unidad2:");
+        Console.WriteLine("1. Ejercicio Par Impar");
+        Console.WriteLine("2. Ejercicio Suma AB");
+        Console.WriteLine("3. Ejercicio Mayor Edad");
+        Console.WriteLine("4. Ejercicio Número Mayor AB");
+        Console.WriteLine("5. Ejercicio Voltear Numero AB");
+        Console.WriteLine("6. Ejercicio Multiplicacion AB");
+        Console.WriteLine("7. Ejercicio Suma Genericos AB");
+        Console.WriteLine();
+        #endregion
 
         int idx;
         idx = int.Parse(Console.ReadLine());
@@ -31,6 +40,7 @@ class Program
              break;
          
          case 5:
+             new Runner_VoltearNumero();
              break;
          
          case 6:
@@ -38,7 +48,11 @@ class Program
              break;
          
          case 7:
-             new RunnerEjercicio_MultiplicacionAB();
+             new Runner_SumaABGenericos();
+             break;
+         
+         case 8:
+             new Runner_Cajero();
              break;
         }
     }

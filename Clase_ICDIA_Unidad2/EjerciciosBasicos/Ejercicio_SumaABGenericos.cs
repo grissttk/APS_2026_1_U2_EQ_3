@@ -18,7 +18,7 @@ public class Ejercicio_SumaABGenericos<T> : Ejercicio
         set => b = value;
     }
 
-    public Ejercicio_SumaABGenericos() : base(7,
+    public Ejercicio_SumaABGenericos(T a, T b) : base(7,
         "Suma con datos genericos", "Suma con datos genericos")
     {
         A = a;
