@@ -23,6 +23,6 @@ public class Ejercicio_VoltearNumero : Ejercicio
 
         int volteado = unidad * 10 + decena;
 
-        Console.WriteLine("Número volteado: " + volteado);
+        Console.WriteLine("Número: " + volteado);
     }
 }

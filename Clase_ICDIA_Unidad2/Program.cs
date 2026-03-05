@@ -15,6 +15,9 @@ class Program
         Console.WriteLine("5. Ejercicio Voltear Numero AB");
         Console.WriteLine("6. Ejercicio Multiplicacion AB");
         Console.WriteLine("7. Ejercicio Suma Genericos AB");
+        Console.WriteLine("8. Ejercicio Cajero AB");
+        Console.WriteLine("9. Ejercicio IMC");
+        Console.WriteLine("10. Distancia Entre Dos Puntos");
         Console.WriteLine();
         #endregion
 
@@ -53,6 +56,14 @@ class Program
          
          case 8:
              new Runner_Cajero();
+             break;
+         
+         case 9:
+             new Runner_IMC();
+             break;
+         
+         case 10:
+             new Runner_DistanciaEntreDosNumeros();
              break;
         }
     }
