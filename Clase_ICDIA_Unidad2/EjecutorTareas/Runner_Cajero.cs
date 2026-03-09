@@ -1,4 +1,4 @@
-﻿using Clase_ICDIA_Unidad2.Otros;
+﻿using Clase_ICDIA_Unidad2.Tareas;
 
 namespace Clase_ICDIA_Unidad2.EjecutoresEjercicio;
 

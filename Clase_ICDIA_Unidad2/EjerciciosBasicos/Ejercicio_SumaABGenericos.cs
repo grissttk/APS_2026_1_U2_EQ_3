@@ -30,5 +30,4 @@ public class Ejercicio_SumaABGenericos<T> : Ejercicio
         double resultado = Convert.ToDouble(A) + Convert.ToDouble(B);
         Console.WriteLine("La suma de A + B = " + resultado);
     }
-
 }

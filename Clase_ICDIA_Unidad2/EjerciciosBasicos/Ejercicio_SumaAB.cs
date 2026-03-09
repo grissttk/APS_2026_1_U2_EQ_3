@@ -16,7 +16,8 @@ public class Ejercicio_SumaAB : Ejercicio
         set => b = value;
     }
 
-    public Ejercicio_SumaAB(int a, int b) : base(2, "SumaAB", "Suma de dos numeros (a+b)")
+    public Ejercicio_SumaAB(int a, int b) : base(2, 
+        "SumaAB", "Suma de dos numeros (a+b)")
     {
         A = a;
         B = b;

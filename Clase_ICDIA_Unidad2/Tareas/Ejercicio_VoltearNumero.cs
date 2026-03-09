@@ -1,4 +1,4 @@
-﻿namespace Clase_ICDIA_Unidad2.EjerciciosBasicos;
+﻿namespace Clase_ICDIA_Unidad2.Tareas;
 
 public class Ejercicio_VoltearNumero : Ejercicio
 {

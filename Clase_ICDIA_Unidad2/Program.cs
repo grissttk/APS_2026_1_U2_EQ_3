@@ -18,6 +18,9 @@ class Program
         Console.WriteLine("8. Ejercicio Cajero AB");
         Console.WriteLine("9. Ejercicio IMC");
         Console.WriteLine("10. Distancia Entre Dos Puntos");
+        Console.WriteLine("11. Promedio de tres calificaciones");
+        Console.WriteLine("12. Determina si un numero es primo");
+        Console.WriteLine("13. Factorial");
         Console.WriteLine();
         #endregion
 
@@ -64,6 +67,18 @@ class Program
          
          case 10:
              new Runner_DistanciaEntreDosNumeros();
+             break;
+         
+         case 11:
+             new Runner_Promedio3Calificaciones();
+             break;
+         
+         case 12:
+             new Runner_NumPrimo();
+             break;
+         
+         case 13:
+             new Runner_Factorial();
              break;
         }
     }

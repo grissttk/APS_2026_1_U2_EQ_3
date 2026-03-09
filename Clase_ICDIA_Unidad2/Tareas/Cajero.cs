@@ -1,4 +1,4 @@
-﻿namespace Clase_ICDIA_Unidad2.Otros;
+﻿namespace Clase_ICDIA_Unidad2.Tareas;
 
 public class Cajero : Ejercicio
 {
