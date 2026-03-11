@@ -6,8 +6,14 @@ public class ParImpar : Ejercicio
     
     public int N { get => n; set => n = value; }
     
-    public ParImpar(int n)
+    public ParImpar()
         : base(1, "Par-Impar", 
+            "Determinar si un número es par o impar")
+    {
+    }
+    
+    public ParImpar(int n)
+        : base(1, "Par-Impar",
             "Determinar si un número es par o impar")
     {
         N = n;

@@ -34,4 +34,10 @@ public class Ejercicio
     public virtual void Ejecutar()
     {
     }
+
+    public override string ToString()
+    {
+        return "(" + Identificador + ") - Nombre: " + NombreEjercicio +
+               " - Descripción: " + Descripcion;
+    }
 }

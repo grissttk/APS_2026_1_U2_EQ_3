@@ -1,4 +1,5 @@
 ﻿using Clase_ICDIA_Unidad2.EjecutoresEjercicio;
+using Clase_ICDIA_Unidad2.EjerciciosBasicos;
 
 namespace Clase_ICDIA_Unidad2.EjecutoresEjercicio;
 
@@ -6,7 +7,17 @@ class Program
 {
     static void Main(string[] args)
     {
+        List<Ejercicio> listaEjercicios = new List<Ejercicio>();
+        listaEjercicios.Add(new ParImpar());
+        listaEjercicios.Add(new Ejercicio_PerimetroPoligonoRegular<int>());
+        
+        foreach (Ejercicio item in listaEjercicios)
+        {
+            Console.WriteLine(item);
+        }
+        
         #region Menu
+        /*
         Console.WriteLine("Menu Clase_ICDIA_Unidad2:");
         Console.WriteLine("1. Ejercicio Par Impar");
         Console.WriteLine("2. Ejercicio Suma AB");
@@ -21,11 +32,13 @@ class Program
         Console.WriteLine("11. Promedio de tres calificaciones");
         Console.WriteLine("12. Determina si un numero es primo");
         Console.WriteLine("13. Factorial");
+        Console.WriteLine("14. Linea Recta");
+        Console.WriteLine("15. Perimetro de un Poligono Regular");
         Console.WriteLine();
+        */
         #endregion
 
-        int idx;
-        idx = int.Parse(Console.ReadLine());
+        int idx = 15;
 
         switch (idx)
         {
@@ -79,6 +92,14 @@ class Program
          
          case 13:
              new Runner_Factorial();
+             break;
+         
+         case 14:
+             new Runner_LineaRecta();
+             break;
+         
+         case 15:
+             new Runner_PerimetroPoligonoRegular();
              break;
         }
     }
