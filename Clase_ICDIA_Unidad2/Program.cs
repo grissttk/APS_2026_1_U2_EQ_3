@@ -1,5 +1,6 @@
 ﻿using Clase_ICDIA_Unidad2.EjecutoresEjercicio;
 using Clase_ICDIA_Unidad2.EjerciciosBasicos;
+using Clase_ICDIA_Unidad2.ListasGenericas;
 
 namespace Clase_ICDIA_Unidad2.EjecutoresEjercicio;
 
@@ -38,7 +39,9 @@ class Program
         */
         #endregion
 
-        int idx = 14;
+        int idx;
+        Console.Write("Opcion: ");
+        idx = Convert.ToInt32(Console.ReadLine());
 
         switch (idx)
         {
@@ -100,6 +103,10 @@ class Program
          
          case 15:
              new Runner_PerimetroPoligonoRegular();
+             break;
+         
+         case 16:
+             new Ej_ListaEnlazada();
              break;
         }
     }
