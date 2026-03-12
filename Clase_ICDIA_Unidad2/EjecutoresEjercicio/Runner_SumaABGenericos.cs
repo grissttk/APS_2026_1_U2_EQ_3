@@ -7,13 +7,25 @@ public class Runner_SumaABGenericos
     public Runner_SumaABGenericos()
     {
         int a, b;
-        Console.WriteLine("Dame el valor de a: ");
-        a = int.Parse(Console.ReadLine());
-        
-        Console.WriteLine("Dame el valor de b: ");
-        b = int.Parse(Console.ReadLine());
+        try
+        {
+            Console.WriteLine("Dame el valor de a: ");
+            a = int.Parse(Console.ReadLine());
 
-        Ejercicio ejercicio = new Ejercicio_SumaABGenericos<int>(a, b);
-        ejercicio.Ejecutar();
+            Console.WriteLine("Dame el valor de b: ");
+            b = int.Parse(Console.ReadLine());
+
+            Ejercicio ejercicio = new Ejercicio_SumaABGenericos<int>(a, b);
+            ejercicio.Ejecutar();
+        }
+        catch (ArgumentException argumentException)
+        {
+            Console.WriteLine(argumentException.Message);
+            Console.WriteLine("Un argumento no cumple con las reestricciones de entrada");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
     }
 }

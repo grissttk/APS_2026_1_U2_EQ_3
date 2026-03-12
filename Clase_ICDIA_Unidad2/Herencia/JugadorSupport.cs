@@ -17,7 +17,7 @@ public class JugadorSupport : Jugador
         Habilidad = habilidad;
     }
 
-    public override void Atacar()
+    public void Atacar()
     {
         //
     }

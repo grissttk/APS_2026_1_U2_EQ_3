@@ -30,6 +30,5 @@ public class Runner_PerimetroPoligonoRegular
         {
             Console.WriteLine("Error: " + ex.Message);
         }
-
     }
 }
